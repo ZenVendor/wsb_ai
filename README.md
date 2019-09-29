@@ -10,12 +10,12 @@ AI
 sudo apt-get install python3-pip pandoc texlive-xetex
 ```
 
-### Install Jupyter lab and required libs *as user*
+#### Install Jupyter lab and required libs *as user*
 ```bash
-pip3 install --user jupyterlab numpy pandas matplotlib sklear
+pip3 install --user jupyterlab numpy pandas matplotlib sklearn statsmodels
 ```
 
-### Add ~/.local/bin to PATH 
+#### Add ~/.local/bin to PATH 
 See .profile, copy to .bashrc
 
 ## Run Jupyter lab 
@@ -24,5 +24,3 @@ cd ~/path/to/ai_dir
 screen -d -m -S jupyter jupyter lab
 ```
 
-
-##Submit reports on Moodle in PDF
