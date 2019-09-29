@@ -1,10 +1,10 @@
 AI
 ==
-###Lab exercises for Artificial Intelligence course
+### Lab exercises for Artificial Intelligence course
 
 *Suggested software: Spyder*
 
-##Prepare
+## Prepare
 ### Install pip (if not present) and tools for PDF creation
 ```bash
 sudo apt-get install python3-pip pandoc texlive-xetex
@@ -15,7 +15,7 @@ sudo apt-get install python3-pip pandoc texlive-xetex
 pip3 install --user jupyterlab numpy pandas matplotlib sklear
 ```
 
-###Add ~/.local/bin to PATH 
+### Add ~/.local/bin to PATH 
 See .profile, copy to .bashrc
 
 ## Run Jupyter lab 
