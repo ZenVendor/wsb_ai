@@ -14,7 +14,7 @@ sudo apt-get install python3 python3-pip pandoc texlive-xetex
 
 #### Install Jupyter lab and required libs *as user*
 ```bash
-pip3 install --user jupyterlab numpy pandas matplotlib sklearn statsmodels
+pip3 install --user jupyterlab numpy pandas matplotlib sklearn statsmodels keras tensorflow
 ```
 
 #### Add ~/.local/bin to PATH 
